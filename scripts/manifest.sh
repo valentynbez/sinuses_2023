@@ -12,7 +12,7 @@ echo -e "sample-id\tforward-absolute-filepath\treverse-absolute-filepath" > ${ou
 
 for file in $input_dir/*.fastq.gz; do
 
-    sample=$(basename $(echo $file | cut -d'_' -f1,2))
+    sample=$(basename $(echo $file | cut -d'_' -f1))
     if [[ $file == *"_R1"* ]]; then
         fwd=$(readlink -f $file)
     elif [[ $file == *"_R2"* ]]; then

@@ -5,8 +5,8 @@ rule fastp_qc:
         forward_reads = os.path.join(DATA_DIR, "{sample}_R1_001.fastq.gz"),
         reverse_reads = os.path.join(DATA_DIR, "{sample}_R2_001.fastq.gz")
     output:
-        forward_qc = os.path.join(OUT_DIR, "fastp", "{sample}_R1_001.fastq.gz"),
-        reverse_qc = os.path.join(OUT_DIR, "fastp", "{sample}_R2_001.fastq.gz"),
+        forward_qc = os.path.join(OUT_DIR, "fastp", "{sample}_1.fastq.gz"),
+        reverse_qc = os.path.join(OUT_DIR, "fastp", "{sample}_2.fastq.gz"),
         report = os.path.join(OUT_DIR, "fastp", "{sample}.html"),
         json = os.path.join(OUT_DIR, "fastp", "{sample}.json")
     log:

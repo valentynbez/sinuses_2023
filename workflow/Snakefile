@@ -28,8 +28,8 @@ sample_names = [x.split("/")[-1].rsplit("_", 2)[0] for x in forward_reads]
 
 rule all:
     input:
-        forward_reads = expand(os.path.join(OUT_DIR, "fastp", "{sample}_R1_001.fastq.gz"), sample=sample_names),
-        reverse_reads = expand(os.path.join(OUT_DIR, "fastp", "{sample}_R2_001.fastq.gz"), sample=sample_names),
+        forward_reads = expand(os.path.join(OUT_DIR, "fastp", "{sample}_1.fastq.gz"), sample=sample_names),
+        reverse_reads = expand(os.path.join(OUT_DIR, "fastp", "{sample}_2.fastq.gz"), sample=sample_names),
         report =  expand(os.path.join(OUT_DIR, "fastp", "{sample}.html"), sample=sample_names),
         json =  expand(os.path.join(OUT_DIR, "fastp", "{sample}.json"), sample=sample_names)
 

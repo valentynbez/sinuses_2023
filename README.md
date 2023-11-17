@@ -1,5 +1,5 @@
-# sinuses_2023
-Rhinosinusitis microbiome analysis.
+# inuses 2023
+Exploratory bioinformatic and data analysis for rhinosinusitis microbiome project. 16S sequencing to metagenomic sequencing.
 
 
 ## Metagenomic analysis
@@ -19,7 +19,10 @@ Workflow includes:
 
 # Log
 
-### 2023-11-17
-- many reads are mapped to host
+## 2023-11-17
+- many reads (> 95%) are mapped to host
     - double-checked code, currently copies [Qiita workflow](https://github.com/qiita-spots/qp-fastp-minimap2/blob/main/qp_fastp_minimap2/qp_fastp_minimap2.py)
 - trying alternative refrence NCBI GRCh38 from [Illumina](https://support.illumina.com/sequencing/sequencing_software/igenome.html) instead of one downloaded straight from NCBI.
+
+## 2023-11-16
+- Started designing metagenomic pipeline.

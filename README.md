@@ -7,8 +7,14 @@ A workflow was designed and implemented using [Snakemake](https://github.com/sna
 Workflow includes:
 1. Quality filtring and trimming - [fastp](https://github.com/OpenGene/fastp)
 2. Host removal - [bwa-mem](https://github.com/lh3/bwa) (best, although slow according to [paper](https://journals.asm.org/doi/10.1128/msystems.01378-21))
+
+### Taxonomy
 3. Taxonomical annotation - [mOTU-tool](https://github.com/motu-tool/mOTUs)
+
+### MAG assembly
 4. Contig assembly - [MetaSPAdes](https://github.com/ablab/spades)
+
+### Functional annotation
 5. AMR annotation - [staramr](https://github.com/phac-nml/staramr)
 
 ### 2023-11-17

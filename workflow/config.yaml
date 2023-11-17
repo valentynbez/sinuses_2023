@@ -1,2 +1,3 @@
 RAW_DATA: "/nfs/cds-peta/exports/biol_micro_cds_gr_sunagawa/scratch/vbezshapkin/sinuses_2023/data/metagenomics/231019_VH01461_6_AAF7F7JM5/Analysis/1/Data/fastq"
 OUT_FOLDER: "/nfs/cds-peta/exports/biol_micro_cds_gr_sunagawa/scratch/vbezshapkin/sinuses_2023/data/metagenomics/processed"
+BWA_REF: "/nfs/cds-peta/exports/biol_micro_cds_gr_sunagawa/scratch/vbezshapkin/sinuses_2023/data/databases/GCA_000001405.15_GRCh38_no_alt_analysis_set"

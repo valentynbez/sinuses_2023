@@ -23,7 +23,7 @@ Workflow includes:
 - many reads (> 95%) are mapped to host
     - double-checked code, currently copies [Qiita workflow](https://github.com/qiita-spots/qp-fastp-minimap2/blob/main/qp_fastp_minimap2/qp_fastp_minimap2.py)
 - trying alternative refrence NCBI GRCh38 from [Illumina](https://support.illumina.com/sequencing/sequencing_software/igenome.html) instead of one downloaded straight from NCBI.
-- the situation was not resolved, see [notebook](https://github.com/valentynbez/sinuses_2023/blob/b7b1b44c035c14b5eebc74657204c509ca8b0691/notebooks/dev.ipynb)
+- the situation was not resolved, see [notebook](https://github.com/valentynbez/sinuses_2023/blob/master/notebooks/dev.ipynb)
 - most samples contain <1% of non-human reads
 
 ## 2023-11-16

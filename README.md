@@ -8,3 +8,8 @@ Rhinosinusitis 16S analysis.
 3. Taxonomical annotation - [mOTU-tool](https://github.com/motu-tool/mOTUs)
 4. Contig assembly - [MetaSPAdes](https://github.com/ablab/spades)
 5. AMR annotation - [staramr](https://github.com/phac-nml/staramr)
+
+### 2023-11-17
+- many reads are mapped to host
+    - double-checked code, currently copies [Qiita workflow](https://github.com/qiita-spots/qp-fastp-minimap2/blob/main/qp_fastp_minimap2/qp_fastp_minimap2.py)
+- trying alternative refrence NCBI GRCh18 from [Illumina](https://support.illumina.com/sequencing/sequencing_software/igenome.html)

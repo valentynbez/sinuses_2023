@@ -1,4 +1,4 @@
-# inuses 2023
+# Sinuses 2023
 Exploratory bioinformatic and data analysis for rhinosinusitis microbiome project. 16S sequencing to metagenomic sequencing.
 
 

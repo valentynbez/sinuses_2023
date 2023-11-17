@@ -17,6 +17,8 @@ Workflow includes:
 ### Functional annotation
 5. AMR annotation - [staramr](https://github.com/phac-nml/staramr)
 
+# Log
+
 ### 2023-11-17
 - many reads are mapped to host
     - double-checked code, currently copies [Qiita workflow](https://github.com/qiita-spots/qp-fastp-minimap2/blob/main/qp_fastp_minimap2/qp_fastp_minimap2.py)

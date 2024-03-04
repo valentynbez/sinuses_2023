@@ -15,6 +15,7 @@ Exploratory bioinformatic and data analysis for rhinosinusitis microbiome projec
     - the only detected species is *C. neoformans*
     - notebook: `notebooks/mock-community-fungi.ipynb`
     - resulting barplot: `visualizations/mock/taxonomy-barplot-fungi.qzv`
+- results can be downloaded to any computer and opened with [QIIME2 View](https://view.qiime2.org/)
 
 
 ## 2023-11-17
